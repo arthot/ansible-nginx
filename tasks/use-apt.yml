@@ -9,7 +9,7 @@
 #
 
 - name: install add-apt-repository binary for Ansible to work
-  apt: name=python-software-properties state=present update_cache=yes
+  apt: name=software-properties-common state=present update_cache=yes
 
 
 
